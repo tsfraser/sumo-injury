@@ -3,6 +3,8 @@
 A small project to probe the effect of injuries in professional level sumo wrestling, and how it affects when a wrestler (Rikishi) retires. This project is split into major components:
 
 SumoScraper: A webscraper that scrapes SumoDB to extract wrestler info, focusing at wrestler that rank at Juryo level or above at least once in their career. [Nearly complete]
+
+
 SumoInjury: A small neural net that, given parameters of a wreslter (length of career, age, win/loss/withdrawals over recent matches) determines the following: the probability of their next injury being career ending. Currently under work.
 
 General use comments:
